@@ -1,11 +1,11 @@
-#include <math.h>       /*ÊýÑ§º¯Êý¿âµÄÍ·ÎÄ¼þ*/
+#include <math.h>       /*æ•°å­¦å‡½æ•°åº“çš„å¤´æ–‡ä»¶*/
 #include <stdio.h>
 int main()
 {
     long x,y;
     for(i=1;i<100000;i++)
     {
-        x=sqrt(i+100);  /*sqrtÊÇÇóÆ½·½¸ùµÄº¯Êý*/
+        x=sqrt(i+100);  /*sqrtæ˜¯æ±‚å¹³æ–¹æ ¹çš„å‡½æ•°*/
         y=sqrt(i+268);
         if(x*x==i+100)&&(y*y==i+268)
             printf("\n%d",i);
